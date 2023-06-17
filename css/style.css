@@ -107,4 +107,18 @@ html {
     padding: 1rem 0;
     font-size: 1.5rem;
   }
+  .blank input {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .blank {
+    width: 70%;
+  }
+  .row, .row1 {
+    width: 70%;
+  }
+  .blank input {
+    font-size: 1.2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
