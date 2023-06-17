@@ -28,9 +28,9 @@ Array.from(solve3).forEach((btn2) => {
     document.querySelector("input").value = blank;
   });
 });
-Array.from(solve4).forEach((btn3)=>{
-    btn3.addEventListener("click",(e)=>{
-        blank = blank.toString().slice(0,-1);
-        document.querySelector("input").value = blank;
-    })
-})
+Array.from(solve4).forEach((btn3) => {
+  btn3.addEventListener("click", (e) => {
+    blank = blank.toString().slice(0, -1);
+    document.querySelector("input").value = blank;
+  });
+});

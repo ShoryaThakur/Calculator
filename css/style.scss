@@ -10,18 +10,14 @@ html {
   font-size: 15px;
   background-color: rgb(250, 226, 149);
 }
-body {
-  width: 100%;
-  height: 100%;
-}
 * {
   margin: 0;
   padding: 0;
   font-family: $primary-font;
 }
 .container {
-  width: 70%;
-  height: 90vh;
+  width: 60%;
+  height: 500px;
   margin: 1rem auto;
   background-color: rgb(168, 168, 180);
   h1 {
@@ -90,5 +86,17 @@ body {
     font-size: 1rem;
     font-weight: bolder;
     cursor: pointer;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .blank {
+    width: 60%;
+  }
+  .row, .row1{
+    width: 60%;
+  }
+  .container h1 {
+    padding: 1rem 0;
+    font-size: 1.5rem;
   }
 }
